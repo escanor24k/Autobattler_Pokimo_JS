@@ -1,0 +1,35 @@
+{
+  "name": "pokimo",
+  "version": "0.0.1-beta",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": true,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "escanor24k",
+    "email": "k.buebel@hotmail.com",
+    "url": "http://nodomainnow.de"
+  },
+  "contributors": [
+    "escanor24k"
+  ],
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
